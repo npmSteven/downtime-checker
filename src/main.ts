@@ -50,7 +50,7 @@ const statusEnum = {
 })();
 
 const getLogs = async () => {
-  const logs = await fs.readFile('./log.json')
+  const logs: any = await fs.readFile('./log.json')
   return JSON.parse(logs);
 }
 
@@ -64,7 +64,7 @@ const writeLog = async (id, date, status) => {
   await fs.writeFile('./log.json', JSON.stringify(logs, null, 2));
 }
 
-app.get('/logs', async (req, res) => {
+app.get('/logs', async (_, res) => {
   const logs = await getLogs();
   res.json(logs);  
 });
