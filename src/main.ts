@@ -2,7 +2,7 @@ import isOnline from "is-online";
 import fs from "fs/promises";
 import { v4 } from 'uuid';
 import express from 'express';
-const cors = require('cors');
+import cors from 'cors';
 
 const app = express();
 
