@@ -1,0 +1,22 @@
+[
+  {
+    "id": "f9f85d25-03c9-44d4-9c8f-2bf8f8cb8d17",
+    "date": "2022-09-01T11:07:00.150Z",
+    "status": "justOffline"
+  },
+  {
+    "id": "f9f85d25-03c9-44d4-9c8f-2bf8f8cb8d17",
+    "date": "2022-09-01T11:07:14.222Z",
+    "status": "justOnline"
+  },
+  {
+    "id": "dee5c344-babc-4bec-b42c-4479e27cc832",
+    "date": "2022-09-01T11:07:15.169Z",
+    "status": "justOffline"
+  },
+  {
+    "id": "dee5c344-babc-4bec-b42c-4479e27cc832",
+    "date": "2022-09-01T11:07:15.239Z",
+    "status": "justOnline"
+  }
+]
