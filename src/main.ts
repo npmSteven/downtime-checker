@@ -2,8 +2,11 @@ import isOnline from "is-online";
 import fs from "fs/promises";
 import { v4 } from 'uuid';
 import express from 'express';
+import cors from 'cors';
 
 const app = express();
+
+app.use(cors());
 
 const freqInternetDuration = 60000;
 let prevIsOnline = true;
