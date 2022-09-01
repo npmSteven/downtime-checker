@@ -5,7 +5,7 @@ import express from 'express';
 
 const app = express();
 
-const freqInternetDuration: number = 60000;
+const freqInternetDuration = 60000;
 let prevIsOnline = true;
 
 const statusEnum = {
